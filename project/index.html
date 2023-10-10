@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fraud Fighters: Using Machine  Learning to fight credit card fraud.</title>
+
+  
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+ 
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+ 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Open+Sans:wght@400;500;700&family=Poppins:wght@400;600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#credit">
+        <h1 class="logo">
+          <img src="./assets/images/logo.png" width="80" height="80" alt="main logo" >
+        </h1>
+      </a>
+
+      <button class="nav-toggle-btn" aria-label="Toggle Menu" data-nav-toggle-btn>
+        <ion-icon name="menu-outline" class="menu-icon"></ion-icon>
+        <ion-icon name="close-outline" class="close-icon"></ion-icon>
+      </button>
+
+      <nav class="navbar container">
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+
+          
+          <li>
+            <a href="#skills" class="navbar-link" data-nav-link>Tech stack</a>
+          </li>
+          
+          <li>
+            <a href="#credit" class="navbar-link" data-nav-link>Scam Checker</a>
+          </li>
+          
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>About us</a>
+          </li>
+          
+          <li>
+            <a href="#portfolio" class="navbar-link" data-nav-link>Add to your portfolio</a>
+          </li>
+          
+          
+          <li>
+            <a href="#news" class="navbar-link" data-nav-link>News</a>
+          </li>
+
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - Hero or main 
+      -->
+
+      <section class="hero" id="home">
+        <div class="container">
+
+          <div class="hero-banner">
+
+            <img src="./assets/images/hero-banner.jpg" width="800" height="864" loading="lazy" alt="main photo"
+              class="img-cover">
+
+            <div class="elem elem-1">
+              <p class="elem-title">172</p>
+
+              <p class="elem-text">Group number</p>
+            </div>
+
+            <div class="elem elem-2">
+              <p class="elem-title">1st</p>
+
+              <p class="elem-text">Project exhibition</p>
+            </div>
+
+            <div class="elem elem-3">
+              <ion-icon name="logo-ionitron"></ion-icon>
+              </div>
+
+            <img src="./assets/images/rotate-img.png" width="169" height="172" alt="VIT Bhopal"
+              class="rotate-img">
+
+          </div>
+
+          <div class="hero-content">
+
+            <h2 class="hero-title">
+              <span>Fraud Fighters</span>
+              <strong>Using Machine  Learning to fight credit card fraud.</strong> Group 172
+            </h2>
+
+            <p class="hero-text">
+              Project exhibition
+            </p>
+
+            <div class="btn-group">
+              <a href="#credit" class="btn btn-primary blue">Check For Scam</a>
+
+              <a href="#about" class="btn">About Our Team</a>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      
+      
+      
+      
+      
+      <!-- 
+       main ai ml form , back end work is left
+      -->
+      <section class="section credit" id="credit">
+        <div class="container">
+          <form class ="credit-card">
+
+          <div class="credit-card">
+
+            <p class="card-subtitle">Credit Card fraud checker</p>
+
+            <h2 class="h2 section-title">Enter Credit Card Number</h2>
+
+            <div class="wrapper">
+
+
+                <div class="credit-form">
+                  <label for="credit-card">Enter Credit Card Number:</label>
+
+                  <input type="text" id="credit-card" placeholder="Card number" required class="credit-input">
+                  
+                  <button id="check-button" class="btn-submit">Check Fraud</button>
+                
+                </div>  <p id="result"></p>
+
+
+              </form>
+
+             
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+      
+      
+
+
+
+
+
+     
+
+      <section class="section skills" id="skills">
+        <div class="container">
+
+          <p class="section-subtitle">Tech stack</p>
+
+          <h2 class="h2 section-title">our team collab on these tech</h2>
+
+          <p class="section-text">
+            This include Frontend,Backend and Machine learning 
+
+          </p>
+
+          <ul class="skills-list">
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 25%">
+                <h3 class=" skills-title">Html</h3>
+
+                <data class="skills-data" value="25">25%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 25%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 25%">
+                <h3 class="skills-title">Python</h3>
+
+                <data class="skills-data" value="15">15%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 15%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 25%">
+                <h3 class="skills-title">CSS</h3>
+
+                <data class="skills-data" value="25">25%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 25%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 25%">
+                <h3 class="skills-title">Js </h3>
+
+                <data class="skills-data" value="15">15%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 15%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 25%">
+                <h3 class="skills-title">React </h3>
+
+                <data class="skills-data" value="10">10%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 10%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 25%">
+                <h3 class="skills-title">API </h3>
+
+                <data class="skills-data" value="10">10%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 10%"></div>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+      <!-- 
+        - #About our team - #
+      -->
+
+      <section class="section about" id="about">
+        <div class="container">
+
+          <figure class="about-banner">
+
+            <img src="./assets/images/about-banner.jpg" width="800" height="652" loading="lazy" alt="vit campus"
+              class="img-cover">
+
+            <img src="./assets/images/absolute-image.jpg" width="800" height="717" loading="lazy" alt="vit logo"
+              class="abs-img">
+
+            
+
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle"> Developer From VITB</p>
+
+            <h2 class="h2 section-title">We are Sophomore at VITB </h2>
+
+            <p class="section-text">
+            Connect with us:-<br>
+          
+             Github<ion-icon class="git" name="logo-github"></ion-icon>
+          
+            </p>
+
+            <p class="section-text">
+              <ul class="footer-list">
+                <li>
+                  <a href="https://github.com/Harsh-Pratap-Singh" class="footer-link">Harsh Pratap Singh</a>
+                </li><br>
+        
+                <li>
+                  <a href="#" class="footer-link">Aarushi</a>
+                </li><br>
+        
+                <li>
+                  <a href="#" class="footer-link">Baibhav</a>
+                </li><br>
+        
+                <li>
+                  <a href="#" class="footer-link">Pulashya</a>
+                </li><br>
+        
+                <li>
+                  <a href="#" class="footer-link">Dharmendra</a>
+                </li><br>
+              </ul>
+            </p>
+
+            <a href="#portfolio" class="btn btn-primary blue">View Portfolio</a>
+
+          </div>
+
+        </div>
+      </section>
+
+<!-- this the step wise process to make ai ml website your own <how our team created the ml model to web dev-->
+
+      <section class="section portfolio" id="portfolio">
+        <div class="container">
+
+          <p class="section-subtitle">Consider adding this piece to your personal portfolio as well.</p>
+
+          <h2 class="h2 section-title">Step by Step process </h2>
+
+          <p class="section-text">
+            We encourag you to try it by yourself
+          </p>
+
+          <ul class="portfolio-list">
+
+            <li>
+              <a href="https://www.researchgate.net/publication/332115726_A_Survey_Paper_On_Credit_Card_Fraud_Detection_Using_Different_Classifiers" class="portfolio-card" style="background-image: url('./assets/images/portfolio-1.jpg')">
+                <div class="card-content">
+
+                  <p class="card-subtitle">Survey paper on different classifier<br> by-Ashish Kumar ,Shivank Kumar Soni and Chetan Agrawal</p>
+
+                  <h3 class="h3 card-title">Classifier research paper</h3>
+
+                  <span class="btn-link">
+                    <span>view paper</span>
+
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </span>
+
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://wiki.python.org/moin/BeginnersGuide" class="portfolio-card" style="background-image: url('./assets/images/portfolio-2.jpg')">
+                <div class="card-content">
+
+                  <p class="card-subtitle">Official python documentaion (Pandas,Numpy etc)</p>
+
+                  <h3 class="h3 card-title">Python documentation </h3>
+
+                  <span class="btn-link">
+                    <span>View documentation</span>
+
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </span>
+
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.w3schools.com/html/default.asp" class="portfolio-card" style="background-image: url('./assets/images/portfolio-3.jpg')">
+                <div class="card-content">
+
+                  <p class="card-subtitle">Web devlopement documentation</p>
+
+                  <h3 class="h3 card-title">Web dev documentation(mazilla.org or W3School.com)</h3>
+
+                  <span class="btn-link">
+                    <span>View documentation</span>
+
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </span>
+
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.freecodecamp.org/news/search?query=backend" class="portfolio-card" style="background-image: url('./assets/images/portfolio-4.jpg')">
+                <div class="card-content">
+
+                  <p class="card-subtitle">Backend and Api through tutorial </p>
+
+                  <h3 class="h3 card-title">Backend & API </h3>
+
+                  <span class="btn-link">
+                    <span>View tutorial</span>
+
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </span>
+
+                </div>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- this the news section just created so you be more attentive about the current credit card scams-->
+
+      <section class="section news" id="news">
+        <div class="container">
+
+          <p class="section-subtitle">News</p>
+
+          <h2 class="h2 section-title">Refrence news </h2>
+
+          <p class="section-text">
+            Some news related to Credit Card Scams
+          </p>
+
+          <ul class="news-list">
+
+            <li>
+              <div class="news-card">
+
+                <figure class="card-banner">
+                  <a href="https://www.aura.com/learn/how-do-people-steal-credit-card-numbers">
+                    <img src="./assets/images/news-1.jpg" width="1181" height="843" loading="lazy"
+                      alt="14 Ways Scammers Can Steal Your Credit Card Numbers in 2023" class="img-cover">
+                  </a>
+                </figure>
+
+                <a href="https://www.aura.com/" class="card-tag">Aura </a>
+
+                <h3 class="card-title">
+                  <a href="https://www.aura.com/learn/how-do-people-steal-credit-card-numbers">14 Ways Scammers Can Steal Your Credit Card Numbers in 2023</a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="news-card">
+
+                <figure class="card-banner">
+                  <a href="https://www.forbes.com/advisor/credit-cards/credit-card-statistics/">
+                    <img src="./assets/images/news-2.jpg" width="1181" height="843" loading="lazy"
+                      alt="Credit Card Statistics And Trends 2023" class="img-cover">
+                  </a>
+                </figure>
+
+                <a href="https://www.forbes.com/advisor/" class="card-tag">Forbes Advisor</a>
+
+                <h3 class="card-title">
+                  <a href="https://www.forbes.com/advisor/credit-cards/credit-card-statistics/">Credit Card Statistics And Trends 2023</a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="news-card">
+
+                <figure class="card-banner">
+                  <a href="https://seon.io/resources/credit-card-fraud-detection/#h-credit-card-fraud-detection-methods">
+                    <img src="./assets/images/news-3.jpg" width="1181" height="843" loading="lazy"
+                      alt="Credit Card Fraud Detection: The Complete Guide
+                      " class="img-cover">
+                  </a>
+                </figure>
+
+                <a href="https://seon.io/" class="card-tag">Seon</a>
+
+                <h3 class="card-title">
+                  <a href="https://seon.io/resources/credit-card-fraud-detection/#h-credit-card-fraud-detection-methods">Credit Card Fraud Detection: The Complete Guide
+                  </a>
+                </h3>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+
+  <!-- Footer cointing various links-->
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="vitb">
+        Group 172<br> <a href="https://vitbhopal.ac.in/" class="vit-link">VIT BHOPAL</a><br> Mentor Dr.Nagrajan
+      </p>
+
+      <ul class="footer-list">
+        <li>
+          <a href="https://www.linkedin.com/"class="vit-link">Linkedin</a>
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </li><br>
+        <li>
+          <a href="https://www.linkedin.com/in/harshprataps/" class="footer-link">Harsh </a>
+        </li>
+
+        <li>
+          <a href="https://www.linkedin.com/in/aarushi-gangta-768b38251?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="footer-link">Aarushi</a>
+        </li>
+
+        <li>
+          <a href="https://www.linkedin.com/in/baibhav-kumar-singh-69853b251/" class="footer-link">Baibhav</a>
+        </li>
+
+        <li>
+          <a href="https://www.linkedin.com/in/pulashya-verma-211950251/" class="footer-link">Pulashya</a>
+        </li>
+
+        <li>
+          <a href="https://www.linkedin.com/in/dharmendra-kumar-8a7b39251?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="footer-link">Dharmendra</a>
+        </li>
+      </ul>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP on the button 
+  -->
+
+  <a href="#top" class="back-to-top" data-back-to-top>BACK TOP</a>
+
+
+
+
+
+
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link front the developer side of the ionicon site
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
